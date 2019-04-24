@@ -1,0 +1,44 @@
+#content {
+  text-align: center;
+  width: 75%; }
+
+.row {
+  width: 100%; }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.left {
+  float: left;
+  width: 50%; }
+
+.right {
+  float: left;
+  width: 50%; }
+
+#standard-buttons .button {
+  margin-left: 20px; }
+
+#arrow-buttons .arrow-button {
+  margin-left: 20px; }
+
+#percentages .pie, #percentages .circle {
+  margin-left: 20px; }
+
+#search-cont {
+  display: flex;
+  justify-content: space-evenly; }
+
+.news-1, .news-2, .map, .chat, .message-form {
+  margin: auto; }
+
+#sliders div {
+  margin-bottom: 15px; }
+
+#video .video {
+  margin: auto; }
+
+
+/*# sourceMappingURL=ui.css.map*/

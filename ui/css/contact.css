@@ -1,0 +1,22 @@
+#content {
+  text-align: left; }
+
+#contact-cont {
+  display: flex; }
+  #contact-cont #contacts {
+    margin-right: 5%; }
+
+#chat-cont .chat {
+  margin: auto; }
+
+.profile {
+  margin-bottom: 5%;
+  padding: 3%;
+  cursor: pointer; }
+
+.selected-contact {
+  background: #f1ddbe;
+  border-radius: 0.4em; }
+
+
+/*# sourceMappingURL=contact.css.map*/
