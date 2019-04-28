@@ -108,8 +108,9 @@ body {
   overflow: hidden;
   box-shadow: 0 0 0 1px #3d6cb0;
   box-sizing: border-box;
-  min-width: 49px;
   height: 49px;
+  min-width: 49px;
+  max-width: 49px;
   display: inline-table;
   border: 2px solid white;
   background-color: #3d6cb0;
@@ -149,8 +150,9 @@ body {
   overflow: hidden;
   box-shadow: 0 0 0 1px #3d6cb0;
   box-sizing: border-box;
-  min-width: 160px;
   height: 160px;
+  min-width: 160px;
+  max-width: 160px;
   border: 8px solid white; }
   .avatar__img img {
     width: 100%;
