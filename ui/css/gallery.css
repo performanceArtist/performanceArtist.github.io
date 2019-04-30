@@ -1,15 +1,15 @@
 
 .pizza {
   margin: auto;
-  max-width: 650px; }
+  max-width: 40.625rem; }
   .pizza__name {
     font-size: 1.7em;
     text-transform: uppercase;
     padding: 1em; }
   .pizza__img img {
     width: 100%;
-    max-width: 420px;
-    border: 1px solid #c5b18d; }
+    max-width: 26.25rem;
+    border: 0.0625rem solid #c5b18d; }
   .pizza__info {
     display: flex;
     justify-content: center; }
@@ -32,7 +32,7 @@
     margin-right: 5%;
     text-align: left; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 31.25rem) {
   .pizza__info {
     font-size: 1em; }
   .pizza__name {
