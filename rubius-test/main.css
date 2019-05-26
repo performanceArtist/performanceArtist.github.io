@@ -1,0 +1,24 @@
+.navigation__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #141823;
+  font-size: 1.5rem;
+  background: #68bb68;
+  padding: 1.2rem;
+  min-width: 5rem;
+  text-align: center; }
+  .navigation__link:hover {
+    color: aliceblue;
+    background: #4ba54b; }
+  .navigation__link_selected {
+    background: #4ba54b; }
+
+.selected-row td {
+  color: white;
+  background-color: black; }
+
+
+body {
+  color: #141823;
+  margin: 0; }
+
