@@ -1,0 +1,39 @@
+.action-panel__button {
+  margin-right: 0.5rem; }
+
+.api-status {
+  max-width: 30rem; }
+
+.task-table__wrapper {
+  padding: 1.5rem; }
+
+.task-table__sort-panel {
+  margin-bottom: 1.5rem; }
+
+.task-table__sort-title {
+  display: inline-block;
+  margin-right: 1rem; }
+
+.task-table__sort-buttons {
+  display: inline-block; }
+
+.task-table__direction-sort {
+  display: inline-block;
+  margin-left: 2rem; }
+
+.task-table__radio-button {
+  margin-left: 1rem; }
+
+.task-table__action-panel {
+  margin-bottom: 1.5rem; }
+
+body,
+html {
+  background: white;
+  font-size: 16px;
+  color: #141823;
+  margin: 0; }
+
+.app__title {
+  padding: 1rem; }
+
