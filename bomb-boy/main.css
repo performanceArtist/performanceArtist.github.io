@@ -3,33 +3,6 @@ body {
   margin: 0;
   text-align: center; }
 
-.game__title {
-  font-size: 2rem;
-  padding: 0.5rem; }
-
-.game__status {
-  font-size: 1.6rem;
-  font-weight: bold;
-  padding: 0.6rem;
-  margin-bottom: 1.5rem; }
-
-.game__config {
-  margin-top: 5%; }
-
-.field {
-  display: inline-block; }
-  .field_disabled .cell {
-    filter: grayscale(100%); }
-  .field__row {
-    display: flex; }
-  .field__status {
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 0.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 5%; }
-
 .cell {
   display: inline-block;
   width: 2rem;
@@ -52,6 +25,33 @@ body {
 .cell_flag {
   background-image: url("images/flag.png");
   background-size: cover; }
+
+.field {
+  display: inline-block; }
+  .field_disabled .cell {
+    filter: grayscale(100%); }
+  .field__row {
+    display: flex; }
+  .field__status {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5%; }
+
+.game__title {
+  font-size: 2rem;
+  padding: 0.5rem; }
+
+.game__status {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.6rem;
+  margin-bottom: 1.5rem; }
+
+.game__config {
+  margin-top: 5%; }
 
 .panel {
   margin-top: 3rem; }
