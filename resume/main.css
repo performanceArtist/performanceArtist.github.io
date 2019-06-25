@@ -21,7 +21,12 @@
     text-transform: uppercase; }
   .info__text {
     font-size: 0.64rem;
-    line-height: 0.8rem; }
+    line-height: 0.8rem;
+    margin-right: 1.4rem;
+    margin-bottom: 0.6rem; }
+
+.info_education .info__name {
+  color: #3d6cb0; }
 
 .range__bar {
   background-color: #e6e6e6;
@@ -29,9 +34,6 @@
   font-size: 1.02916rem;
   text-transform: uppercase;
   margin-top: 0.8rem; }
-
-.range__text {
-  text-transform: uppercase; }
 
 .range__progress {
   background-color: #3d6cb0;
@@ -165,8 +167,6 @@
 .education__info {
   margin-right: 1.4rem;
   margin-bottom: 0.6rem; }
-  .education__info .info__name {
-    color: #3d6cb0; }
 
 .experience__header {
   margin-bottom: 1.5rem; }
@@ -189,7 +189,7 @@
   padding: 0.16rem;
   padding-left: 0.35rem; }
 
-.profile__crucial-info {
+.profile__text_marked {
   font-weight: bold; }
 
 .resume {
@@ -224,6 +224,11 @@
 .skills__header {
   margin-bottom: 0.5rem; }
 
+.skills__title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem; }
+
 .skills__split-range {
   margin-bottom: 0.7rem;
   text-align: center; }
@@ -242,13 +247,13 @@
   flex-wrap: wrap;
   padding-left: 0.7rem; }
 
-.software__range {
+.software__soft-container {
   width: 40%;
   margin-right: 10%;
   margin-bottom: 1rem; }
 
 @media screen and (max-width: 400px) {
-  .software__range {
+  .software__soft-container {
     width: 100%;
     margin-left: 1.5rem; } }
 
