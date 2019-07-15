@@ -177,22 +177,20 @@ body {
     transform: rotate(45deg); }
 
 .panel {
-  padding-top: 2%;
-  font-size: 1em;
-  width: 400px; }
+  display: inline-block; }
+  .panel__wrapper {
+    padding-top: 2%; }
   .panel__form {
     display: flex; }
   .panel__column_left {
     margin-right: 2em;
     padding-top: 0.2em; }
-  .panel input[type='submit'] {
-    margin-top: 1em; }
-  .panel__input {
+  .panel__input-wrapper {
     margin-bottom: 1em; }
-    .panel__input input {
-      width: 5em; }
-    .panel__input label {
-      margin-left: 0.8em; }
+  .panel__input {
+    width: 5em; }
+  .panel__label {
+    margin-left: 0.8em; }
   .panel__checkmark {
     display: block;
     margin-bottom: 0.5em; }
