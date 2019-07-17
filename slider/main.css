@@ -180,7 +180,8 @@
       position: absolute;
       width: 20px;
       left: -32px;
-      text-align: center; }
+      text-align: center;
+      font-size: 0.8rem; }
 
 html,
 body {
