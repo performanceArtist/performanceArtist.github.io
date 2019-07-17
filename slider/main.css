@@ -152,7 +152,8 @@
       width: 20px;
       margin-left: 0px;
       text-align: center;
-      margin-top: 20px; }
+      margin-top: 20px;
+      font-size: 0.8rem; }
   .slider .slider_ver {
     width: 14px;
     height: 300px; }
