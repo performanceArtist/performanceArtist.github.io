@@ -106,13 +106,6 @@
     border: 0;
     background: #68bb68;
     border-radius: 0.1em; }
-  .slider__first-done {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    border: 0;
-    background: #d6d6d6;
-    border-radius: 0.1em; }
   .slider__head {
     cursor: pointer;
     border-radius: 50%;
@@ -128,8 +121,7 @@
     width: 300px;
     height: 14px;
     margin-top: 45px; }
-    .slider .slider_hor .slider__done,
-    .slider .slider_hor .slider__first-done {
+    .slider .slider_hor .slider__done {
       height: 100%;
       width: 0; }
     .slider .slider_hor .slider__head {
@@ -157,8 +149,7 @@
   .slider .slider_ver {
     width: 14px;
     height: 300px; }
-    .slider .slider_ver .slider__done,
-    .slider .slider_ver .slider__first-done {
+    .slider .slider_ver .slider__done {
       height: 0;
       width: 100%; }
     .slider .slider_ver .slider__head {
