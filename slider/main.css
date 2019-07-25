@@ -1,3 +1,22 @@
+.panel {
+  display: inline-block; }
+  .panel__wrapper {
+    padding-top: 2%; }
+  .panel__form {
+    display: flex; }
+  .panel__column_left {
+    margin-right: 2em;
+    padding-top: 0.2em; }
+  .panel__input-wrapper {
+    margin-bottom: 1em; }
+  .panel__input {
+    width: 5em; }
+  .panel__label {
+    margin-left: 0.8em; }
+  .panel__checkmark {
+    display: block;
+    margin-bottom: 0.5em; }
+
 .checkmark {
   position: relative;
   cursor: pointer;
@@ -42,25 +61,6 @@
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg); }
-
-.panel {
-  display: inline-block; }
-  .panel__wrapper {
-    padding-top: 2%; }
-  .panel__form {
-    display: flex; }
-  .panel__column_left {
-    margin-right: 2em;
-    padding-top: 0.2em; }
-  .panel__input-wrapper {
-    margin-bottom: 1em; }
-  .panel__input {
-    width: 5em; }
-  .panel__label {
-    margin-left: 0.8em; }
-  .panel__checkmark {
-    display: block;
-    margin-bottom: 0.5em; }
 
 
 
