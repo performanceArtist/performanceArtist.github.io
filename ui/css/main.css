@@ -3922,7 +3922,7 @@ body .ui-tooltip {
     height: 100%;
     background-color: #c2c2c2; }
 
-.bubble_positive-comment, .bubble_negative-comment {
+.bubble_with-positive-comment, .bubble_with-negative-comment {
   padding: 1rem;
   margin-bottom: 1rem;
   display: inline-block;
@@ -3931,15 +3931,14 @@ body .ui-tooltip {
 .bubble_invalid, .bubble_valid {
   display: inline-block;
   visibility: hidden;
-  height: 2.1rem;
-  width: 8rem;
+  height: 2.2rem;
+  width: 5.6rem;
   text-align: center;
   font-size: 0.9rem;
   font-weight: bold;
   text-transform: uppercase;
   color: #f5f5f5;
-  line-height: 2.1rem;
-  margin-left: 0.8rem; }
+  line-height: 2.2rem; }
 
 .bubble {
   position: relative;
@@ -4008,13 +4007,13 @@ body .ui-tooltip {
     font-weight: bold; }
     .bubble_with-label:after {
       border-top-color: #d28847; }
-  .bubble_positive-comment {
+  .bubble_with-positive-comment {
     background: #68bb68; }
-    .bubble_positive-comment:after {
+    .bubble_with-positive-comment:after {
       border-left-color: #68bb68; }
-  .bubble_negative-comment {
+  .bubble_with-negative-comment {
     background: #d28847; }
-    .bubble_negative-comment:after {
+    .bubble_with-negative-comment:after {
       border-left-color: #d28847; }
   .bubble_invalid {
     background: #d28847; }
@@ -4788,6 +4787,8 @@ body .ui-tooltip {
     padding: 0.5rem;
     padding-left: 0.9375rem;
     font-size: 0.9rem; }
+  .message-form__bubble {
+    margin-left: 0.3rem; }
   .message-form__textarea {
     width: 100%;
     box-sizing: border-box;
@@ -5079,10 +5080,6 @@ body .ui-tooltip {
   .ui__column {
     float: left;
     width: 48.3%; }
-    .ui__column_align-left {
-      text-align: left; }
-    .ui__column_align-right {
-      text-align: right; }
   .ui__buttons {
     margin-top: 5.5rem;
     margin-bottom: 4.3rem; }
@@ -5135,7 +5132,7 @@ body .ui-tooltip {
     margin-bottom: 1.7rem; }
   .ui__message-form {
     margin-top: 1.7rem;
-    margin-left: 4.3rem;
+    margin-left: 4rem;
     margin-bottom: 5rem; }
   .ui__toggle-heading {
     padding-top: 0.8rem; }

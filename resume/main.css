@@ -24,9 +24,8 @@
     line-height: 0.8rem;
     margin-right: 1.4rem;
     margin-bottom: 0.6rem; }
-
-.info_education .info__name {
-  color: #3d6cb0; }
+  .info_highlighted-name .info__name {
+    color: #3d6cb0; }
 
 .range__bar {
   background-color: #e6e6e6;
